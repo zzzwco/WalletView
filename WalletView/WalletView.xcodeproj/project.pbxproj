@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB84C1E8205F90AD00867F35 /* WalletLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB84C1E7205F90AD00867F35 /* WalletLayout.swift */; };
+		CBC33884205A06F500893248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC33883205A06F500893248 /* AppDelegate.swift */; };
+		CBC33886205A06F500893248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC33885205A06F500893248 /* ViewController.swift */; };
+		CBC33889205A06F500893248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC33887205A06F500893248 /* Main.storyboard */; };
+		CBC3388B205A06F500893248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC3388A205A06F500893248 /* Assets.xcassets */; };
+		CBC3388E205A06F500893248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC3388C205A06F500893248 /* LaunchScreen.storyboard */; };
+		CBC33897205A098200893248 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC33896205A098200893248 /* WalletView.swift */; };
+		CBC3389D205A128500893248 /* WalletView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBC3389C205A128500893248 /* WalletView.xib */; };
+		CBC338A0205A1A3C00893248 /* WalletCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC3389E205A1A3C00893248 /* WalletCollectionViewCell.swift */; };
+		CBC338A1205A1A3C00893248 /* WalletCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBC3389F205A1A3C00893248 /* WalletCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB84C1E7205F90AD00867F35 /* WalletLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletLayout.swift; sourceTree = "<group>"; };
+		CBC33880205A06F500893248 /* WalletView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC33883205A06F500893248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBC33885205A06F500893248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBC33888205A06F500893248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC3388A205A06F500893248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBC3388D205A06F500893248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBC3388F205A06F500893248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC33896205A098200893248 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		CBC3389C205A128500893248 /* WalletView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletView.xib; sourceTree = "<group>"; };
+		CBC3389E205A1A3C00893248 /* WalletCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBC3389F205A1A3C00893248 /* WalletCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC3387D205A06F500893248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC33877205A06F500893248 = {
+			isa = PBXGroup;
+			children = (
+				CBC33882205A06F500893248 /* WalletView */,
+				CBC33881205A06F500893248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC33881205A06F500893248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC33880205A06F500893248 /* WalletView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC33882205A06F500893248 /* WalletView */ = {
+			isa = PBXGroup;
+			children = (
+				CBC33895205A073900893248 /* WalletView */,
+				CBC33883205A06F500893248 /* AppDelegate.swift */,
+				CBC33885205A06F500893248 /* ViewController.swift */,
+				CBC33887205A06F500893248 /* Main.storyboard */,
+				CBC3388A205A06F500893248 /* Assets.xcassets */,
+				CBC3388C205A06F500893248 /* LaunchScreen.storyboard */,
+				CBC3388F205A06F500893248 /* Info.plist */,
+			);
+			path = WalletView;
+			sourceTree = "<group>";
+		};
+		CBC33895205A073900893248 /* WalletView */ = {
+			isa = PBXGroup;
+			children = (
+				CB84C1E7205F90AD00867F35 /* WalletLayout.swift */,
+				CBC33896205A098200893248 /* WalletView.swift */,
+				CBC3389C205A128500893248 /* WalletView.xib */,
+				CBC3389E205A1A3C00893248 /* WalletCollectionViewCell.swift */,
+				CBC3389F205A1A3C00893248 /* WalletCollectionViewCell.xib */,
+			);
+			path = WalletView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC3387F205A06F500893248 /* WalletView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC33892205A06F500893248 /* Build configuration list for PBXNativeTarget "WalletView" */;
+			buildPhases = (
+				CBC3387C205A06F500893248 /* Sources */,
+				CBC3387D205A06F500893248 /* Frameworks */,
+				CBC3387E205A06F500893248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalletView;
+			productName = WalletView;
+			productReference = CBC33880205A06F500893248 /* WalletView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC33878205A06F500893248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = keisme;
+				TargetAttributes = {
+					CBC3387F205A06F500893248 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBC3387B205A06F500893248 /* Build configuration list for PBXProject "WalletView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC33877205A06F500893248;
+			productRefGroup = CBC33881205A06F500893248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC3387F205A06F500893248 /* WalletView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBC3387E205A06F500893248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC3388E205A06F500893248 /* LaunchScreen.storyboard in Resources */,
+				CBC338A1205A1A3C00893248 /* WalletCollectionViewCell.xib in Resources */,
+				CBC3388B205A06F500893248 /* Assets.xcassets in Resources */,
+				CBC33889205A06F500893248 /* Main.storyboard in Resources */,
+				CBC3389D205A128500893248 /* WalletView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC3387C205A06F500893248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB84C1E8205F90AD00867F35 /* WalletLayout.swift in Sources */,
+				CBC33886205A06F500893248 /* ViewController.swift in Sources */,
+				CBC338A0205A1A3C00893248 /* WalletCollectionViewCell.swift in Sources */,
+				CBC33884205A06F500893248 /* AppDelegate.swift in Sources */,
+				CBC33897205A098200893248 /* WalletView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBC33887205A06F500893248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC33888205A06F500893248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBC3388C205A06F500893248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC3388D205A06F500893248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBC33890205A06F500893248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBC33891205A06F500893248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC33893205A06F500893248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				INFOPLIST_FILE = WalletView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.keisme.WalletView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBC33894205A06F500893248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				INFOPLIST_FILE = WalletView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.keisme.WalletView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC3387B205A06F500893248 /* Build configuration list for PBXProject "WalletView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC33890205A06F500893248 /* Debug */,
+				CBC33891205A06F500893248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC33892205A06F500893248 /* Build configuration list for PBXNativeTarget "WalletView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC33893205A06F500893248 /* Debug */,
+				CBC33894205A06F500893248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC33878205A06F500893248 /* Project object */;
+}
