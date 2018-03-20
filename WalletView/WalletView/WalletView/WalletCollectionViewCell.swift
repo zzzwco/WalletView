@@ -10,6 +10,8 @@ import UIKit
 
 class WalletCollectionViewCell: UICollectionViewCell {
 
+    var isExpand = false
+    
     @IBOutlet weak var bgView: UIView!
     
     override func awakeFromNib() {

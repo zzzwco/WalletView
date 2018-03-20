@@ -11,6 +11,8 @@ import UIKit
 class WalletView: UIView {
     
     @IBOutlet weak var collectionView: UICollectionView!
+    var expandIndexItem: Int?
+    var isExpand = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -29,7 +31,6 @@ class WalletView: UIView {
 extension WalletView {
     private func initConfig() {
         loadNib()
-//        collectionView.backgroundColor = UIColor.blue
         collectionView.register(UINib.init(nibName: "WalletCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "WalletCollectionViewCell")
         let layout = WalletLayout()
         collectionView.collectionViewLayout = layout
@@ -67,13 +68,29 @@ extension WalletView: UICollectionViewDataSource {
 extension WalletView: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        collectionView.performBatchUpdates(nil, completion: nil)
-//        collectionView.isScrollEnabled = false
+        let cell = collectionView.cellForItem(at: indexPath) as! WalletCollectionViewCell
+        cell.isExpand = !cell.isExpand
+        
+        if cell.isExpand, indexPath.row != expandIndexItem {
+            cell.isExpand = !isExpand
+        }
+        expandIndexItem = indexPath.row
+        
+        isExpand = cell.isExpand
+        
+        collectionView.performBatchUpdates({
+            
+        }) { (_) in
+//            collectionView.isScrollEnabled = false
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-        collectionView.performBatchUpdates(nil, completion: nil)
-//        collectionView.isScrollEnabled = true
+        
+        if let cell = collectionView.cellForItem(at: indexPath) as? WalletCollectionViewCell {
+            cell.isExpand = false
+        }
+        
     }
     
 }
